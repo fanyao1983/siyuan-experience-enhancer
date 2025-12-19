@@ -1,0 +1,302 @@
+﻿[
+    {
+        "id":  "serene-gradient",
+        "name":  "Serene Gradient",
+        "description":  "A Serene Gradient style background",
+        "path":  "static/presets/serene-gradient.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/serene-gradient.svg"
+    },
+    {
+        "id":  "dawn-mist",
+        "name":  "Dawn Mist",
+        "description":  "A Dawn Mist style background",
+        "path":  "static/presets/dawn-mist.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/dawn-mist.svg"
+    },
+    {
+        "id":  "arctic-aurora",
+        "name":  "Arctic Aurora",
+        "description":  "A Arctic Aurora style background",
+        "path":  "static/presets/arctic-aurora.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/arctic-aurora.svg"
+    },
+    {
+        "id":  "coastline-haze",
+        "name":  "Coastline Haze",
+        "description":  "A Coastline Haze style background",
+        "path":  "static/presets/coastline-haze.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/coastline-haze.svg"
+    },
+    {
+        "id":  "citrus-glow",
+        "name":  "Citrus Glow",
+        "description":  "A Citrus Glow style background",
+        "path":  "static/presets/citrus-glow.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/citrus-glow.svg"
+    },
+    {
+        "id":  "velvet-sunset",
+        "name":  "Velvet Sunset",
+        "description":  "A Velvet Sunset style background",
+        "path":  "static/presets/velvet-sunset.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/velvet-sunset.svg"
+    },
+    {
+        "id":  "midnight-bloom",
+        "name":  "Midnight Bloom",
+        "description":  "A Midnight Bloom style background",
+        "path":  "static/presets/midnight-bloom.svg",
+        "theme":  "dark",
+        "themeHint":  "閫傚悎鏆楄壊涓婚 / Dark friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/midnight-bloom.svg"
+    },
+    {
+        "id":  "coral-reef",
+        "name":  "Coral Reef",
+        "description":  "A Coral Reef style background",
+        "path":  "static/presets/coral-reef.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/coral-reef.svg"
+    },
+    {
+        "id":  "forest-canopy",
+        "name":  "Forest Canopy",
+        "description":  "A Forest Canopy style background",
+        "path":  "static/presets/forest-canopy.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/forest-canopy.svg"
+    },
+    {
+        "id":  "desert-dunes",
+        "name":  "Desert Dunes",
+        "description":  "A Desert Dunes style background",
+        "path":  "static/presets/desert-dunes.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/desert-dunes.svg"
+    },
+    {
+        "id":  "misty-mountain",
+        "name":  "Misty Mountain",
+        "description":  "A Misty Mountain style background",
+        "path":  "static/presets/misty-mountain.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/misty-mountain.svg"
+    },
+    {
+        "id":  "sakura-breeze",
+        "name":  "Sakura Breeze",
+        "description":  "A Sakura Breeze style background",
+        "path":  "static/presets/sakura-breeze.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/sakura-breeze.svg"
+    },
+    {
+        "id":  "ocean-depth",
+        "name":  "Ocean Depth",
+        "description":  "A Ocean Depth style background",
+        "path":  "static/presets/ocean-depth.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/ocean-depth.svg"
+    },
+    {
+        "id":  "nordic-frost",
+        "name":  "Nordic Frost",
+        "description":  "A Nordic Frost style background",
+        "path":  "static/presets/nordic-frost.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/nordic-frost.svg"
+    },
+    {
+        "id":  "prism-veil",
+        "name":  "Prism Veil",
+        "description":  "A Prism Veil style background",
+        "path":  "static/presets/prism-veil.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/prism-veil.svg"
+    },
+    {
+        "id":  "neon-grid",
+        "name":  "Neon Grid",
+        "description":  "A Neon Grid style background",
+        "path":  "static/presets/neon-grid.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/neon-grid.svg"
+    },
+    {
+        "id":  "pebble-shore",
+        "name":  "Pebble Shore",
+        "description":  "A Pebble Shore style background",
+        "path":  "static/presets/pebble-shore.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/pebble-shore.svg"
+    },
+    {
+        "id":  "marble-ink",
+        "name":  "Marble Ink",
+        "description":  "A Marble Ink style background",
+        "path":  "static/presets/marble-ink.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/marble-ink.svg"
+    },
+    {
+        "id":  "honeycomb-light",
+        "name":  "Honeycomb Light",
+        "description":  "A Honeycomb Light style background",
+        "path":  "static/presets/honeycomb-light.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/honeycomb-light.svg"
+    },
+    {
+        "id":  "pastel-blocks",
+        "name":  "Pastel Blocks",
+        "description":  "A Pastel Blocks style background",
+        "path":  "static/presets/pastel-blocks.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/pastel-blocks.svg"
+    },
+    {
+        "id":  "sapphire-vapor",
+        "name":  "Sapphire Vapor",
+        "description":  "A Sapphire Vapor style background",
+        "path":  "static/presets/sapphire-vapor.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/sapphire-vapor.svg"
+    },
+    {
+        "id":  "cloud-cotton",
+        "name":  "Cloud Cotton",
+        "description":  "A Cloud Cotton style background",
+        "path":  "static/presets/cloud-cotton.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/cloud-cotton.svg"
+    },
+    {
+        "id":  "botanical-sketch",
+        "name":  "Botanical Sketch",
+        "description":  "A Botanical Sketch style background",
+        "path":  "static/presets/botanical-sketch.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/botanical-sketch.svg"
+    },
+    {
+        "id":  "horizon-fade",
+        "name":  "Horizon Fade",
+        "description":  "A Horizon Fade style background",
+        "path":  "static/presets/horizon-fade.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/horizon-fade.svg"
+    },
+    {
+        "id":  "urban-glow",
+        "name":  "Urban Glow",
+        "description":  "A Urban Glow style background",
+        "path":  "static/presets/urban-glow.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/urban-glow.svg"
+    },
+    {
+        "id":  "aqua-ripple",
+        "name":  "Aqua Ripple",
+        "description":  "A Aqua Ripple style background",
+        "path":  "static/presets/aqua-ripple.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/aqua-ripple.svg"
+    },
+    {
+        "id":  "alloy-sheen",
+        "name":  "Alloy Sheen",
+        "description":  "A Alloy Sheen style background",
+        "path":  "static/presets/alloy-sheen.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/alloy-sheen.svg"
+    },
+    {
+        "id":  "cosmic-dust",
+        "name":  "Cosmic Dust",
+        "description":  "A Cosmic Dust style background",
+        "path":  "static/presets/cosmic-dust.svg",
+        "theme":  "dark",
+        "themeHint":  "閫傚悎鏆楄壊涓婚 / Dark friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/cosmic-dust.svg"
+    },
+    {
+        "id":  "flora-bloom",
+        "name":  "Flora Bloom",
+        "description":  "A Flora Bloom style background",
+        "path":  "static/presets/flora-bloom.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/flora-bloom.svg"
+    },
+    {
+        "id":  "lumen-waves",
+        "name":  "Lumen Waves",
+        "description":  "A Lumen Waves style background",
+        "path":  "static/presets/lumen-waves.svg",
+        "theme":  "light",
+        "themeHint":  "閫傚悎娴呰壊涓婚 / Light friendly",
+        "author":  "SiYuan Experience Enhancer",
+        "preview":  "/plugins/siyuan-experience-enhancer/static/presets/lumen-waves.svg"
+    }
+]
