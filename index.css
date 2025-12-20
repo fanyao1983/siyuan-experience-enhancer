@@ -1893,8 +1893,8 @@
     display: none;
 }
 
-/* 激活页签：白色卡片 + 上圆角 + 阴影 */
-.layout__center .fn__flex-column > .fn__flex > .layout-tab-bar .item.item--focus:not(.item--readonly) {
+/* 激活页签：白色卡片 + 上圆角 + 阴影（仅在启用皮肤时生效） */
+:root[data-ee-skin] .layout__center .fn__flex-column > .fn__flex > .layout-tab-bar .item.item--focus:not(.item--readonly) {
     /* Savor Sugar 中，激活 tab 背景就是页面背景 */
     background-color: var(--ee-skin-page-bg);
     border-radius: 8px 8px 0 0;
@@ -2020,13 +2020,13 @@
 
 
 
-/* 普通 tab：浅米色 hover 背景 */
-.layout__center .fn__flex-column > .fn__flex > .layout-tab-bar .item:not(.item--readonly):hover {
+/* 普通 tab：浅米色 hover 背景（仅在 Sugar 焦糖皮肤时生效） */
+:root[data-ee-skin="default"] .layout__center .fn__flex-column > .fn__flex > .layout-tab-bar .item:not(.item--readonly):hover {
     background-color: #e8e1dc;
 }
 
-/* 未激活 tab hover 的下方装饰，使用稍深一点的底色 */
-.layout__center .fn__flex-column > .fn__flex > .layout-tab-bar .item:not(.item--readonly):hover::after {
+/* 未激活 tab hover 的下方装饰，使用稍深一点的底色（仅在 Sugar 焦糖皮肤时生效） */
+:root[data-ee-skin="default"] .layout__center .fn__flex-column > .fn__flex > .layout-tab-bar .item:not(.item--readonly):hover::after {
     background-image:
         url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M100 100C44.772 100 0 55.228 0 0v100h100z' fill='%23e8e1dc'/></svg>"),
         url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 100c55.228 0 100-44.772 100-100v100H0z' fill='%23e8e1dc'/></svg>"),
@@ -2034,7 +2034,10 @@
 }
 
 /* ===== 皮肤变量：用于切换顶栏 / 页签栏 / Dock / 底栏整体风格 ===== */
-:root {
+/* 注意：系统默认样式不使用任何皮肤变量，只有明确选择皮肤时才应用 */
+
+/* 皮肤 0：Sugar 焦糖（默认 Sugar 风格） */
+:root[data-ee-skin="default"] {
     --ee-skin-shell-bg: #f4ecee;       /* 顶栏 / tab 壳 / dock / 底栏外壳背景 */
     --ee-skin-page-bg:  #f9f8f5;       /* 页面背景 / 激活 tab 底色 */
     --ee-skin-accent: #ea556b;         /* 强调色：工作区按钮 / 面包屑激活 / dock active */
@@ -2043,15 +2046,23 @@
     --ee-skin-status-bg: #f4ecee;      /* 底部状态气泡背景 */
 }
 
-/* 默认 Sugar 样式：面包屑 padding */
-:root:not([data-ee-skin]) .protyle-breadcrumb,
-:root:not([data-ee-skin]) .protyle-breadcrumb__bar,
+/* Sugar 焦糖样式：面包屑 padding */
 :root[data-ee-skin="default"] .protyle-breadcrumb,
 :root[data-ee-skin="default"] .protyle-breadcrumb__bar {
     padding-top: 5px;
     padding-bottom: 2px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+/* Sugar 焦糖样式：书签背景 */
+:root[data-ee-skin="default"] .file-tree.sy__bookmark {
+    background-color: #f4ecee !important;
+}
+
+/* Sugar 焦糖样式：标签背景（黑色） */
+:root[data-ee-skin="default"] .file-tree.sy__tag {
+    background-color: #363636 !important;
 }
  
 /* 皮肤 1：Apple Dark（类 macOS 深色） */
@@ -2067,7 +2078,7 @@
 /* Apple Dark：底部状态栏悬浮气泡背景颜色 */
 :root[data-ee-skin="appleDark"] .toolbar:not(.toolbar--border) ~ #status,
 :root[data-ee-skin="appleDark"] .body--window #status {
-    background-color: #aaaaaa;
+    background-color: #000000;
 }
 
 /* Apple Dark 下移除默认左右侧 Dock 边框，避免出现亮色分割线 */
@@ -2143,6 +2154,59 @@
     fill: currentColor;
 }
 
+    /* Apple Dark：菜单背景改为黑色（黑苹果风格） */
+    :root[data-ee-skin="appleDark"] .b3-menu {
+        background-color: #363636 !important;
+        border: none !important;
+
+    }
+
+:root[data-ee-skin="appleDark"] .b3-menu__submenu {
+    background-color: #363636 !important;
+    border: none !important;
+}
+:root[data-ee-skin="appleDark"] .b3-menu__item {
+    background-color: #363636 !important;
+}
+:root[data-ee-skin="appleDark"] .b3-menu__separator{
+    background-color: #363636 !important;
+}
+/* Apple Dark：菜单文字颜色改为白色（黑苹果风格） */
+:root[data-ee-skin="appleDark"] .b3-menu__label {
+    color: #ffffff !important;
+}
+:root[data-ee-skin="appleDark"] .b3-menu__accelerator {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+:root[data-ee-skin="appleDark"] .b3-menu__item svg {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+}
+:root[data-ee-skin="appleDark"] .b3-menu__item.hz-text-icon-button {
+    color: #ffffff !important;
+}
+
+/* Apple Dark：其他元素文字颜色（黑苹果风格） */
+:root[data-ee-skin="appleDark"] .ft__on-surface {
+    color: #ffffff !important;
+}
+:root[data-ee-skin="appleDark"] .status__backgroundtask {
+    color: #ffffff !important;
+}
+
+:root[data-ee-skin="appleDark"] .status__counter{color: #ffffff !important;}
+
+/* Apple Dark：书签背景（黑苹果风格） */
+:root[data-ee-skin="appleDark"] .file-tree.sy__bookmark {
+    background-color: #363636 !important;
+}
+
+
+/* Apple Dark：标签背景（黑苹果风格） */
+:root[data-ee-skin="appleDark"] .file-tree.sy__tag {
+    background-color: #363636 !important;
+}
+
 /* 皮肤 2：Forest Mist（森林雾） */
 :root[data-ee-skin="forestMist"] {
     --ee-skin-shell-bg: #e3f0ea;
@@ -2162,6 +2226,16 @@
     padding-right: 5px;
 }
 
+/* Forest Mist：书签背景（森林雾风格） */
+:root[data-ee-skin="forestMist"] .file-tree.sy__bookmark {
+    background-color: #e3f0ea !important;
+}
+
+/* Forest Mist：标签背景（黑色） */
+:root[data-ee-skin="forestMist"] .file-tree.sy__tag {
+    background-color: #363636 !important;
+}
+
 
 /* Sunset Glass：面包屑 padding */
 :root[data-ee-skin="sunsetGlass"] .protyle-breadcrumb,
@@ -2172,8 +2246,8 @@
     padding-right: 5px;
 }
 
-/* 顶部工具栏背景 + 尺寸（对齐 Savor）+ 左上角工作空间按钮 */
-body:not(.body--mobile, .body--window) > #toolbar {
+/* 顶部工具栏背景 + 尺寸（对齐 Savor）+ 左上角工作空间按钮（仅在启用皮肤时生效） */
+:root[data-ee-skin] body:not(.body--mobile, .body--window) > #toolbar {
     background-color: var(--ee-skin-shell-bg);
     border: none;
     height: 38px;
@@ -2191,12 +2265,12 @@ body:not(.body--mobile, .body--window) > #toolbar #barWorkspace {
     align-items: center;
     justify-content: center;
 }
-/* 默认皮肤下，workspace 使用强调色背景 */
-:root:not([data-ee-skin="appleDark"]) body:not(.body--mobile, .body--window) > #toolbar #barWorkspace {
+/* 默认皮肤下，workspace 使用强调色背景（仅在启用皮肤时生效，排除 appleDark） */
+:root[data-ee-skin]:not([data-ee-skin="appleDark"]) body:not(.body--mobile, .body--window) > #toolbar #barWorkspace {
     color: var(--ee-skin-page-bg);
     background-color: var(--ee-skin-accent);
 }
-:root:not([data-ee-skin="appleDark"]) body:not(.body--mobile, .body--window) > #toolbar #barWorkspace:hover {
+:root[data-ee-skin]:not([data-ee-skin="appleDark"]) body:not(.body--mobile, .body--window) > #toolbar #barWorkspace:hover {
     background-color: var(--ee-skin-accent-hover);
 }
 
@@ -2221,13 +2295,13 @@ body:not(.body--mobile, .body--window) > #toolbar .toolbar__item:not(#barWorkspa
 
 /* 皮肤样式选择框：使用与通用配置下拉框完全一致的样式，单独宽度控制如需可另行添加 */
 
-/* 中间 tab 区域背景（页签栏所在那条带） */
-.layout__center .fn__flex-column > .fn__flex > .layout-tab-bar {
+/* 中间 tab 区域背景（页签栏所在那条带，仅在启用皮肤时生效） */
+:root[data-ee-skin] .layout__center .fn__flex-column > .fn__flex > .layout-tab-bar {
     background-color: var(--ee-skin-shell-bg);
 }
 
-/* 左右停靠栏背景 */
-.dock {
+/* 左右停靠栏背景（仅在启用皮肤时生效） */
+:root[data-ee-skin] .dock {
     background-color: var(--ee-skin-shell-bg);
 }
 
@@ -2317,14 +2391,14 @@ body:not(.body--mobile, .body--window) > #toolbar .toolbar__item:not(#barWorkspa
     height: 12px;
 }
 
-/* 底部状态栏整体壳背景：与 Sugar 一致使用 #f4ecee */
-.status {
+/* 底部状态栏整体壳背景（仅在启用皮肤时生效） */
+:root[data-ee-skin] .status {
     background-color: var(--ee-skin-shell-bg);
 }
 
-/* 底部状态栏悬浮气泡（对齐 Savor status.css） */
-.toolbar:not(.toolbar--border) ~ #status,
-.body--window #status {
+/* 底部状态栏悬浮气泡（对齐 Savor status.css，仅在启用皮肤时生效） */
+:root[data-ee-skin] .toolbar:not(.toolbar--border) ~ #status,
+:root[data-ee-skin] .body--window #status {
     position: fixed;
     display: flex;
     min-width: 0;
@@ -4077,10 +4151,7 @@ body.ee-slideshow-body-fixed {
 .sy__file .b3-tooltips:hover::before,
 .sy__file .b3-tooltips:hover::after,
 /* 隐藏更多新建提示 */
-body:has(.sy__file .b3-list-item--hide-action:hover>.b3-list-item__action) #tooltip
-
-/* 隐藏文档信息提示 */
-    {
+body:has(.sy__file .b3-list-item--hide-action:hover>.b3-list-item__action) #tooltip {
     display: none;
 }
 
@@ -4741,40 +4812,40 @@ html .protyle-wysiwyg [data-node-id].li[fold="1"]:not([data-subtype="o"].en_item
     background-color: var(--Sv-breadcrumb-active-hover) !important;
 }
 
-/* ===== Savor Sugar 版面包屑配色（直接使用最终颜色） ===== */
-.protyle-breadcrumb > .protyle-breadcrumb__bar .protyle-breadcrumb__item:hover,
-.protyle-breadcrumb__bar > .protyle-breadcrumb__item:hover {
+/* ===== Savor Sugar 版面包屑配色（直接使用最终颜色，仅在 Sugar 焦糖皮肤时生效） ===== */
+:root[data-ee-skin="default"] .protyle-breadcrumb > .protyle-breadcrumb__bar .protyle-breadcrumb__item:hover,
+:root[data-ee-skin="default"] .protyle-breadcrumb__bar > .protyle-breadcrumb__item:hover {
     /* hover 时的浅底色，取自 sugar 的面板背景系 */
     background-color: #e8e1dc;
 }
-.protyle-breadcrumb > .protyle-breadcrumb__bar .protyle-breadcrumb__item > svg.popover__block,
-.protyle-breadcrumb__bar > .protyle-breadcrumb__item > svg.popover__block {
+:root[data-ee-skin="default"] .protyle-breadcrumb > .protyle-breadcrumb__bar .protyle-breadcrumb__item > svg.popover__block,
+:root[data-ee-skin="default"] .protyle-breadcrumb__bar > .protyle-breadcrumb__item > svg.popover__block {
     background-color: #e8e1dc;
 }
-.protyle-breadcrumb .protyle-breadcrumb__item--active:hover,
-.protyle-breadcrumb__bar .protyle-breadcrumb__item--active:hover {
+:root[data-ee-skin="default"] .protyle-breadcrumb .protyle-breadcrumb__item--active:hover,
+:root[data-ee-skin="default"] .protyle-breadcrumb__bar .protyle-breadcrumb__item--active:hover {
     background-color: #e8e1dc;
 }
-.protyle-breadcrumb .protyle-breadcrumb__item--active:not(:first-child) > svg,
-.protyle-breadcrumb__bar .protyle-breadcrumb__item--active:not(:first-child) > svg {
+:root[data-ee-skin="default"] .protyle-breadcrumb .protyle-breadcrumb__item--active:not(:first-child) > svg,
+:root[data-ee-skin="default"] .protyle-breadcrumb__bar .protyle-breadcrumb__item--active:not(:first-child) > svg {
     /* sugar 顶栏主色 + 浅色文字 */
     color: #f9f8f5;
     background-color: #ea556b !important;
 }
-.protyle-breadcrumb .protyle-breadcrumb__arrow,
-.protyle-breadcrumb__bar .protyle-breadcrumb__arrow {
+:root[data-ee-skin="default"] .protyle-breadcrumb .protyle-breadcrumb__arrow,
+:root[data-ee-skin="default"] .protyle-breadcrumb__bar .protyle-breadcrumb__arrow {
     border-left: 1px solid rgb(174, 172, 166);
 }
-[aria-label="解除锁定"],
-[aria-label="Make doc writable"] {
+:root[data-ee-skin="default"] [aria-label="解除锁定"],
+:root[data-ee-skin="default"] [aria-label="Make doc writable"] {
     background-color: #e8e1dc;
 }
-.protyle-breadcrumb__icon[data-type="exit-focus"] {
+:root[data-ee-skin="default"] .protyle-breadcrumb__icon[data-type="exit-focus"] {
     background-color: #ea556b;
     color: #f9f8f5 !important;
     box-shadow: rgb(15 15 15 / 10%) 0px 1px 2px;
 }
-.protyle-breadcrumb__icon[data-type="exit-focus"]:hover {
+:root[data-ee-skin="default"] .protyle-breadcrumb__icon[data-type="exit-focus"]:hover {
     background-color: #dd3952 !important;
 }
 .link-icon-doc {
