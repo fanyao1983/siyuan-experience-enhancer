@@ -1,5 +1,10 @@
 ## Changelog
 
+2025-12-21 修复:
+
+- **AI助手**: 修复正确使用全局代理直接在思源里访问 ChatGPT、Gemini 等国外AI网站
+  如何使用查看教程: https://zhongcaodaren.feishu.cn/docx/TcaXddhNbozq3JxZF2gc5LEQnJc
+
 2025-12-20 优化项目:
 
 - **皮肤样式**
