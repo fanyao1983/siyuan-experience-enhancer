@@ -1,32 +1,32 @@
 [
   {
-    "id": "user-bg-miiu39yz-diwti0",
-    "name": "神经科学",
+    "id": "user-bg-miio70og-xyfzsu",
+    "name": "浅蓝色天空",
     "description": "",
-    "preview": "assets/petal/background-presets/manual-refresh-miiu23ue-5qpbk4.jpg",
-    "localPath": "assets/petal/background-presets/manual-refresh-miiu23ue-5qpbk4.jpg",
-    "originalUrl": "assets/petal/background-presets/manual-refresh-miiu23ue-5qpbk4.jpg",
+    "preview": "assets/petal/background-presets/manual-refresh-miio51aw-tajdrz.jpg",
+    "localPath": "assets/petal/background-presets/manual-refresh-miio51aw-tajdrz.jpg",
+    "originalUrl": "assets/petal/background-presets/manual-refresh-miio51aw-tajdrz.jpg",
     "type": "user",
-    "createdAt": 1764757089335,
+    "createdAt": 1766411695674,
     "snapshot": {
       "source": "online",
-      "selectedPreset": "serene-gradient",
-      "opacity": 1,
-      "blur": 9,
+      "selectedPreset": "velvet-sunset",
+      "opacity": 0.2,
+      "blur": 14,
       "online": {
         "mode": "collection",
-        "collectionId": "bt-fengjing",
+        "collectionId": "picsum-landscape",
         "customUrl": "https://api.btstu.cn/sjbz/api.php?lx=fengjing&format=images",
         "refreshMinutes": 0,
-        "lastImageUrl": "assets/petal/background-presets/manual-refresh-miiu23ue-5qpbk4.jpg"
+        "lastImageUrl": "assets/petal/background-presets/manual-refresh-miio51aw-tajdrz.jpg"
       },
       "titleEffect": {
-        "enabled": true,
-        "depth": 4.5,
-        "blur": 21,
-        "opacity": 0.85,
+        "enabled": false,
+        "depth": 1.5,
+        "blur": 16,
+        "opacity": 0.7,
         "customShadow": "",
-        "enable3D": true
+        "enable3D": false
       },
       "autoBrightness": {
         "shared": {
@@ -39,18 +39,18 @@
           "darkColor": "#1b1b1f"
         },
         "body": {
-          "mode": "inherit",
+          "mode": "off",
           "lightColor": "#f5f5f7",
-          "darkColor": "#1b1b1f"
+          "darkColor": "#000000"
         }
       },
       "blackOverlay": {
-        "enabled": true,
-        "opacity": 0.5
+        "enabled": false,
+        "opacity": 0
       }
     },
     "meta": {
-      "originalUrl": "assets/petal/background-presets/manual-refresh-miiu23ue-5qpbk4.jpg"
+      "originalUrl": "assets/petal/background-presets/manual-refresh-miio51aw-tajdrz.jpg"
     }
   }
 ]
