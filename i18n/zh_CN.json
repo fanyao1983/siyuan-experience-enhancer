@@ -55,6 +55,7 @@
   "detailTitleBulletThreading": "🧷 列表样式",
   
   "outlineLayout_title": "📐 大纲排版",
+  "outlineFullDisplay": "完整显示大纲",
   "outlineColors_title": "🎨 大纲颜色",
   "outlineHoverColor": "Hover 颜色",
   "outlineHoverColorDesc": "鼠标悬停时文字的颜色",
@@ -583,6 +584,8 @@
   "bg_save_name_placeholder": "为当前背景取一个名字，例如：晨光渐变",
   "bg_save_to_library": "保存到背景库",
   "skinStyle_currentSkinLabel": "当前皮肤",
+  "skinStyle_option_system_name": "使用系统默认样式",
+  "skinStyle_option_system_desc": "使用思源笔记系统默认样式，不应用任何皮肤",
   "skinStyle_option_default_name": "Sugar 焦糖",
   "skinStyle_option_default_desc": "Sugar 风格：浅粉壳 + 红色强调",
   "skinStyle_option_appleDark_name": "Apple Dark 黑苹果",
@@ -644,6 +647,8 @@
   "linkStyle_title": "🔗 链接样式",
   "linkStyle_linkColorLabel": "链接颜色",
   "linkStyle_linkHoverColorLabel": "链接悬停颜色",
+  "linkStyle_blockRefLinkColorLabel": "引用链接颜色",
+  "linkStyle_blockRefLinkHoverColorLabel": "引用链接悬停颜色",
   "linkStyle_otherStylesTitle": "⚙️ 其他样式",
   "headingNumbering_defaultColor": "默认主题色",
   "headingNumbering_setTo": "已设置为"

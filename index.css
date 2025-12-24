@@ -2061,10 +2061,28 @@
 }
 
 /* Sugar 焦糖样式：标签背景（黑色） */
+/* Bookmark / Tag text color in Sugar (default) skin */
+::root[data-ee-skin="default"] .sy__bookmark .b3-list-item__text,
+::root[data-ee-skin="default"] .sy__tag .b3-list-item__text,:root[data-ee-skin="default"] .sy__inbox .b3-list-item__text {
+    color: white !important;
+}
+::root[data-ee-skin="default"] .sy__tag .counter,
+::root[data-ee-skin="default"] .sy__tag .b3-list-item__action {
+    color: white !important;
+}
 :root[data-ee-skin="default"] .file-tree.sy__tag {
     background-color: #363636 !important;
 }
- 
+
+/* 通用标签面板文字颜色修复 - 确保所有主题下标签面板文字都是白色 */
+.sy__tag .b3-list-item__text,
+.sy__tag .counter,
+.sy__tag .b3-list-item__action,
+.sy__tag .b3-list-item__graphic {
+    color: white !important;
+    fill: white !important;
+}
+
 /* 皮肤 1：Apple Dark（类 macOS 深色） */
 :root[data-ee-skin="appleDark"] {
     --ee-skin-shell-bg: #363636;
@@ -2232,6 +2250,15 @@
 }
 
 /* Forest Mist：标签背景（黑色） */
+/* Bookmark / Tag text color in Forest Mist skin */
+::root[data-ee-skin="forestMist"] .sy__bookmark .b3-list-item__text,
+::root[data-ee-skin="forestMist"] .sy__tag .b3-list-item__text,:root[data-ee-skin="forestMist"] .sy__inbox .b3-list-item__text {
+    color: white !important;
+}
+::root[data-ee-skin="forestMist"] .sy__tag .counter,
+::root[data-ee-skin="forestMist"] .sy__tag .b3-list-item__action {
+    color: white !important;
+}
 :root[data-ee-skin="forestMist"] .file-tree.sy__tag {
     background-color: #363636 !important;
 }

@@ -2,7 +2,7 @@
   "name": "siyuan-experience-enhancer",
   "author": "传说哥",
   "url": "https://github.com/fanyao1983/siyuan-experience-enhancer",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "minAppVersion": "3.2.1",
   "disabledInPublish": true,
     "backends": [
@@ -21,11 +21,11 @@
     ],
   "displayName": {
     "default": "siyuan experience enhancer",
-    "zh_CN": "思源智能美学套件"
+    "zh_CN": "思源智能美学体验套件"
   },
   "description": {
     "default": "Make SiYuan easy to use, beautiful, and genuinely smart: honed in real workflows, fully customizable themes and artful palettes, with AI woven into product details. Daily interactions and visuals are almost entirely rebuilt—toolbars, menus, titles, folding logic; search, navigation, focus mode; paste, tags, bookmarks, references; history restore, the AI assistant, and more.",
-    "zh_CN": "更新日志: 初次载入后默认载入亮色主题,对于喜欢用新开工作空间测试的加了特别的支持..."
+    "zh_CN": "涵盖从易用性,到主题,到插件,到AI的所有设置,让思源真正好用,好看,又聪明"
   },
   "readme": {
     "default": "README_EN.md",
@@ -100,6 +100,7 @@
     "导入",
     "同步",
     "效率",
-    "自动化"
+    "自动化",
+    "微信读书"
   ]
 }

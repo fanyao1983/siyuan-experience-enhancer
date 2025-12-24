@@ -55,6 +55,7 @@
   "detailTitleBulletThreading": "🧷 List Style",
   
   "outlineLayout_title": "📐 Outline Layout",
+  "outlineFullDisplay": "Full Display Outline",
   "outlineColors_title": "🎨 Outline Colors",
   "outlineHoverColor": "Hover Color",
   "outlineHoverColorDesc": "Text color when hovering over outline items",
@@ -584,6 +585,8 @@
   "bg_save_name_placeholder": "Name this background, e.g. Morning Gradient",
   "bg_save_to_library": "Save to Library",
   "skinStyle_currentSkinLabel": "Current Skin",
+  "skinStyle_option_system_name": "Use System Default",
+  "skinStyle_option_system_desc": "Use SiYuan's system default style without applying any skin",
   "skinStyle_option_default_name": "Sugar",
   "skinStyle_option_default_desc": "Sugar: soft pink shell with red accents",
   "skinStyle_option_appleDark_name": "Apple Dark",
@@ -645,6 +648,8 @@
   "linkStyle_title": "🔗 Link Style",
   "linkStyle_linkColorLabel": "Link Color",
   "linkStyle_linkHoverColorLabel": "Link Hover Color",
+  "linkStyle_blockRefLinkColorLabel": "Block-ref Link Color",
+  "linkStyle_blockRefLinkHoverColorLabel": "Block-ref Link Hover Color",
   "linkStyle_otherStylesTitle": "⚙️ Other Styles",
   "headingNumbering_defaultColor": "Default Theme Color",
   "headingNumbering_setTo": "set to"
