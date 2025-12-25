@@ -42,6 +42,7 @@
   "fieldPanelPosition": "Panel Position",
 
   "detailTitlePromptManager": "⚙️ Advanced Prompt Manager Settings",
+  "detailTitleBatchEdit": "⚙️ Batch Edit Settings",
   "detailTitleHeadingNumbering": "⚙️ Heading Numbering Settings",
   "detailTitleBackgroundCover": "🎨 Home Slideshow Background",
   "detailTitleFontSettings": "🔤 Typography Settings",
@@ -55,7 +56,8 @@
   "detailTitleBulletThreading": "🧷 List Style",
   
   "outlineLayout_title": "📐 Outline Layout",
-  "outlineFullDisplay": "Full Display Outline",
+  "outlineFullDisplay": "Wrap long outline titles",
+  "outlineBoldText": "Bold Outline Text",
   "outlineColors_title": "🎨 Outline Colors",
   "outlineHoverColor": "Hover Color",
   "outlineHoverColorDesc": "Text color when hovering over outline items",
@@ -206,6 +208,7 @@
   "featureDesc_multiDimTableStyle": "Apply theme styles to attribute-view tables (multi-dimensional tables).",
   "featureTitle_blockquoteStyle": "Blockquote Style",
   "featureDesc_blockquoteStyle": "Apply theme styles to blockquotes.",
+  "featureTitle_calloutStyle": "Callout Style",
   "featureDesc_docTreeStyle_full": "Provide multiple visual themes for the document tree (enhanced style configuration).",
   "featureDesc_headingStyle_full": "Apply beautiful visual styles to headings and fine-tune hierarchy readability.",
   "featureTitle_skinStyle": "Theme Skin",
@@ -286,6 +289,7 @@
   "membershipPlanFreeFeatureOutline": "Outline helpers",
   "membershipPlanFreeFeatureList": "List management",
   "membershipPlanFreeFeatureUX": "Core UX polish",
+  "membershipPlanFreeFeatureTrial": "half year advanced feature trial",
   "membershipPlanFreeButton": "Current Plan",
 
   "membershipPlanVipName": "VIP Plan",
@@ -652,7 +656,13 @@
   "linkStyle_blockRefLinkHoverColorLabel": "Block-ref Link Hover Color",
   "linkStyle_otherStylesTitle": "⚙️ Other Styles",
   "headingNumbering_defaultColor": "Default Theme Color",
-  "headingNumbering_setTo": "set to"
+  "headingNumbering_setTo": "set to",
+  "batchEdit_colorTitle": "🎨 Background Colors",
+  "batchEdit_defaultColor": "Transparent",
+  "batchEdit_customColor": "Custom Color",
+  "batchEdit_colorUpdated": "Color updated to",
+  "batchEdit_transparentLocked": "Transparent color cannot be modified, this is a special color used to restore background",
+  "batchEdit_colorReset": "Color reset to"
 }
 
 

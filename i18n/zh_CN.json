@@ -42,6 +42,7 @@
   "fieldPanelPosition": "面板位置",
 
   "detailTitlePromptManager": "⚙️ 提示词管理高级设置",
+  "detailTitleBatchEdit": "⚙️ 批量编辑配置",
   "detailTitleHeadingNumbering": "⚙️ 标题编号配置",
   "detailTitleBackgroundCover": "🎨 首页幻灯片背景",
   "detailTitleFontSettings": "🔤 排版设置",
@@ -55,7 +56,8 @@
   "detailTitleBulletThreading": "🧷 列表样式",
   
   "outlineLayout_title": "📐 大纲排版",
-  "outlineFullDisplay": "完整显示大纲",
+  "outlineFullDisplay": "大纲标题过长时换行完整显示",
+  "outlineBoldText": "大纲加粗显示",
   "outlineColors_title": "🎨 大纲颜色",
   "outlineHoverColor": "Hover 颜色",
   "outlineHoverColorDesc": "鼠标悬停时文字的颜色",
@@ -286,6 +288,7 @@
   "membershipPlanFreeFeatureOutline": "大纲优化工具",
   "membershipPlanFreeFeatureList": "列表管理功能",
   "membershipPlanFreeFeatureUX": "基础体验优化",
+  "membershipPlanFreeFeatureTrial": "半年高级功能试用",
   "membershipPlanFreeButton": "当前套餐",
 
   "membershipPlanVipName": "VIP 套餐",
@@ -651,7 +654,13 @@
   "linkStyle_blockRefLinkHoverColorLabel": "引用链接悬停颜色",
   "linkStyle_otherStylesTitle": "⚙️ 其他样式",
   "headingNumbering_defaultColor": "默认主题色",
-  "headingNumbering_setTo": "已设置为"
+  "headingNumbering_setTo": "已设置为",
+  "batchEdit_colorTitle": "🎨 背景颜色",
+  "batchEdit_defaultColor": "透明",
+  "batchEdit_customColor": "自定义颜色",
+  "batchEdit_colorUpdated": "颜色已更新为",
+  "batchEdit_transparentLocked": "透明颜色不能修改，这是用于还原背景色的特殊颜色",
+  "batchEdit_colorReset": "颜色已重置为"
 }
 
 
