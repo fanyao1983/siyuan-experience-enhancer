@@ -2,7 +2,7 @@
   "name": "siyuan-experience-enhancer",
   "author": "传说哥",
   "url": "https://github.com/fanyao1983/siyuan-experience-enhancer",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "minAppVersion": "3.2.1",
   "disabledInPublish": true,
     "backends": [
